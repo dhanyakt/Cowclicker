@@ -1,0 +1,50 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size:medium;
+}
+
+img {
+    max-width: 100%;
+    -webkit-transition: width 2s;
+    transition: width 2s;
+}
+
+/* Header */
+
+header {
+    display:block;
+    text-transform: uppercase;
+    margin:0;
+}
+
+/* Common */
+
+.container {
+    width: 100%;
+    display:-webkit-flex;
+    display:flex;
+    flex-wrap:wrap;
+}
+
+.row {
+    width: 100%;
+    margin-bottom: 1px;
+}
+
+.col-md-12 {
+    width:100%;
+}
+
+@media screen and (min-width:550px){
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    }
+@media screen and (min-width:800px){
+    .container {
+        width:800px;
+        margin-right:auto;
+        margin-left: auto;
+    }
+}
